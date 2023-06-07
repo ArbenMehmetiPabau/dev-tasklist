@@ -9,7 +9,7 @@ The task for the candidate
 =====
 
 1. You are to establish a GitHub account with your credentials
-2. One of the main requirements to this task is that you commit your file changes with username equals to YourNameAndYourYearOfBirth
+2. One of the main requirements to this task is that you commit your file changes with your GIT username equals to YourNameAndYourYearOfBirth
 3. To begin the task, you must establish a public repository with the name of your choosing
 4. Inside this repository, you need to establish one main folder called monorepo, where inside of this folder, you will have three other folders named: JavaScript, React, and TypeScript(optional)
 5. You will continue to develop the code inside the folders accordingly as per instructions below, specific to each folder. 
