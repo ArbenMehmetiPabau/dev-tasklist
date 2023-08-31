@@ -1,6 +1,6 @@
 ![alt text](https://www.pabau.com/wp-content/uploads/elementor/thumbs/download-pq3fsnaitgyylurbfryzighm46y9be58loymts4eok.png "Pabau CRM Logo")
 
-Pabau Kosovo L.L.C - Tasklist for internship July 2023
+Pabau Kosovo L.L.C - Tasklist for internship October 2023
 ====
 As of receiving this link from our recruitment team, you have seven days to complete the requirements set below. Please read carefully, only the candidates that fulfill the 100% of the requirements will be invited for a face to face interview where we talk more in detail about your provided solution. 
 
@@ -57,6 +57,6 @@ Inside the TypeScript folder, all you have to do is establish one file named typ
 Conclusion
 ======
 
-After completing the tasks, make sure you have comitted all of your changes to your public github repository and email at gazmend@pabau.com for review. The title of your email must begin with "[Internship Task] Full name of Candidate". If the title is incorrect, it will not reach my inbox. Final date for submitting your task for review is 26th of June.
+After completing the tasks, make sure you have comitted all of your changes to your public github repository and email at gazmend@pabau.com for review. The title of your email must begin with "[Internship Task] Full name of Candidate". If the title is incorrect, it will not reach my inbox.
 
 Thank you for your interest in our internship programme, good luck to you!
