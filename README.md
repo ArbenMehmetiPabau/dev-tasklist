@@ -28,7 +28,7 @@ Form to have four checkbox inputs with values: Internship, Pabau, Employment, Ca
 
 To have one button "Shuffle Values" - when clicked, it should simply swap the order of the checkbox inputs that appear on the form
 
-To have one button "Change Values" - when clicked, it should simply change the values of the checkbox inputs into something of your choice.
+To have one button "Change Values" - when clicked, it should simply change the values of the checkbox inputs that appear on the form into something of your choice.
 
 To have one button "Show selected values" - when clicked, it should display on the screen the selected checkboxes.
 
