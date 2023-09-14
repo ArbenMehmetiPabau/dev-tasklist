@@ -22,13 +22,13 @@ For the JavaScript folder task, you need to demonstrate your abilities of manipu
 
 Inside the JavaScript folder, it is required of you to have one index.html file, and one index.js file. 
 
-in the index.html file, you need to setup one basic form: 
+in the index.html file, you need to setup the following view: 
 
-Form to have four checkbox inputs with values: Internship, Pabau, Employment, Career
+The view to have four checkbox inputs with values: Internship, Pabau, Employment, Career
 
-To have one button "Shuffle Values" - when clicked, it should simply swap the order of the checkbox inputs that appear on the form
+To have one button "Shuffle Values" - when clicked, it should simply swap the order of the checkbox inputs that appear on the view
 
-To have one button "Change Values" - when clicked, it should simply change the values of the checkbox inputs that appear on the form into something of your choice.
+To have one button "Change Values" - when clicked, it should simply change the values of the checkbox inputs that appear on the view into something of your choice.
 
 To have one button "Show selected values" - when clicked, it should display on the screen the selected checkboxes.
 
