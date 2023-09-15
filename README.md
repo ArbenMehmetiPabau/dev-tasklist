@@ -2,7 +2,7 @@
 
 Pabau Kosovo L.L.C - Tasklist for internship October 2023
 ====
-As of receiving this link from our recruitment team, you have seven days to complete the requirements set below. Please read carefully, only the candidates that fulfill the 100% of the requirements will be invited for a face to face interview where we talk more in detail about your provided solution. 
+Please read carefully, only the candidates that fulfill the 100% of the requirements will be invited for a face to face interview where we talk more in detail about your provided solution. 
 
 
 The task for the candidate
