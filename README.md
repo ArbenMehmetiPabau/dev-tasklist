@@ -48,6 +48,8 @@ Once you have confirmed your services are up and running, you can visit localhos
 
     TypeScript strictness is set to false, but if you complete tasks fully type safe you will get maximum points for task completion.
 
+    Any UI and/or Design implementations will be counted as bonus points for your frontend skills.
+
 ## Task completion
 
 Please make a seperate repo of your own with the completed task, deliver it as instructed by the recruiter.
