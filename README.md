@@ -65,3 +65,5 @@ You can restart it by running this command on root of dev-tasklist repo:
 And then restarting them with the command: 
 
 ```docker-compose up --build```
+
+If your laptop cannot handle Docker and/or if you do not have a working laptop at the moment, you have the option to take this interview task directly in our offices in Prishtina. Please discuss the option with the recruiter to arrange it accordingly.
