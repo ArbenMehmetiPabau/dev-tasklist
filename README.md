@@ -53,3 +53,15 @@ Once you have confirmed your services are up and running, you can visit localhos
 ## Task completion
 
 Please make a seperate repo of your own with the completed task, deliver it as instructed by the recruiter.
+
+## Warning
+
+Because we are using Docker to start our services, any new/update on the frontend app will require you to restart the services; 
+
+You can restart it by running this command on root of dev-tasklist repo: 
+
+```docker-compose down -v```
+
+And then restarting them with the command: 
+
+```docker-compose up --build```
