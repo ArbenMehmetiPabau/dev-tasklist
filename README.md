@@ -1,62 +1,50 @@
 ![alt text](https://www.pabau.com/wp-content/uploads/elementor/thumbs/download-pq3fsnaitgyylurbfryzighm46y9be58loymts4eok.png "Pabau CRM Logo")
 
-Pabau Kosovo L.L.C - Tasklist for internship October 2023
+Pabau Kosovo L.L.C - Tasklist for internship April 2024
 ====
-Please read carefully, only the candidates that fulfill the 100% of the requirements will be invited for a face to face interview where we talk more in detail about your provided solution. 
 
+In this repo you can find a project that is split between Backend, and Frontend folder; 
 
-The task for the candidate
-=====
+Our backend is using Expressjs, and a MySQL database;
 
-1. You are to establish a GitHub account with your credentials
-2. One of the main requirements to this task is that you commit your file changes with your GIT username equals to YourNameAndYourYearOfBirth
-3. To begin the task, you must establish a public repository with the name of your choosing
-4. Inside this repository, you need to establish one main folder called monorepo, where inside of this folder, you will have three other folders named: JavaScript, React, and TypeScript(optional)
-5. You will continue to develop the code inside the folders accordingly as per instructions below, specific to each folder. 
+Our frontend is using Nextjs. 
 
-**_TypeScript folder is for bonus points, and will give priority to the candidates who complete it correctly._**
+This repo uses a docker-compose.yml file to launch the project in your local environment that means you must have Docker installed
+and running before attempting the start the local environment for work; [Download Docker Here](https://www.docker.com/products/docker-desktop/)
 
-##### The JavaScript folder task
+## Instructions to start the local environment
 
-For the JavaScript folder task, you need to demonstrate your abilities of manipulating DOM elements to obtain information and display on screen. 
+* Establish a GitHub account
+* Make sure your Git name is: Name Surname
+* Make sure your Git email is the same one that you have applied with for the internship
+* Clone the repo dev-tasklist
+* Ensure that you have Docker running
+* Open a bash terminal and go to the cloned repo dev-tasklist, now, you can start your local environment using this command:
 
-Inside the JavaScript folder, it is required of you to have one index.html file, and one index.js file. 
+```docker-compose up --build```
 
-in the index.html file, you need to setup the following view: 
+This command will launch the services for: mysql, backend, frontend, and phpmyadmin. 
 
-The view to have four checkbox inputs with values: Internship, Pabau, Employment, Career
+Your backend that powers your API calls is located at port 5000, and can be used inside of your frontend app with http://host.docker.internal:5000 base url.
 
-To have one button "Shuffle Values" - when clicked, it should simply swap the order of the checkbox inputs that appear on the view
+Once you have confirmed your services are up and running, you can visit localhost:3000 to view your frontend, and this is where the task begins.
 
-To have one button "Change Values" - when clicked, it should simply change the values of the checkbox inputs that appear on the view into something of your choice.
+## Task requirements
 
-To have one button "Show selected values" - when clicked, it should display on the screen the selected checkboxes.
+  
+    Task 1: (read)
+    Create a component that will list all of bookings as separate links - showing like: 
+    A Booking on [date] starting at [start_time]
+    These links, if clicked, they should lead to another page example: /booking/[id]: and inside this page you will display the information:
+    This Booking is with [doctor_name] For [service] and it ends on [end_time], You will also leave a Back button, allowing you to go back to the homepage.
 
-##### The React folder task
+    Task 2: (write)
+    Create a page that will allow the user to use a form to make a POST request to the endpoint /api/bookings; 
+    You can derive the required input forms from your backend folder where your endpoint is expecting the parameters to 
+    successfully insert a row into the bookings table. 
 
-Inside the React folder, establish a Reactjs app, or a Nextjs app (optional), you will need to establish the functionality of the image presented below. 
+    If booking is inserted successfully then redirect back to the main page where all bookings are listed from Task 1.
+    If booking is not inserted due to errors, display all relevant errors in human readable format.
 
-1. All you need to worry about is to have a landing page, in which there is a Header, a Body, and a Footer
-2. In the Header you will need to display the current step of the app, which can be either 1/2, or 2/2 (you start at 1/2.)
-3. Inside the Body, you need to list at least four options for selection each with different names, and when selected, it will take us to another empty page where the name of that option is displayed on the screen, but in the Header, the current step of the app needs to be updated to 2/2.
-4. We need to establish a back button that will take us from 2/2 step, back into the 1/2 main selection step.
-
-![image](https://github.com/gazmendpabau/dev-tasklist/assets/97658825/3dabccf5-13c4-4418-8087-7c9ba8b5b095)
-
-##### The TypeScript folder task
-
-Inside the TypeScript folder, all you have to do is establish one file named types.d.ts, do not worry about establishing an actual TS app, your task will be to simply establish the types and interfaces to be used for the described parameters below: 
-
-1. Our company has Interns, establish an interface to describe the Interns with the attributes: "name", "age", "skills". 
-"skills" attribute can have multiple values, like: "React", "HTML", "JS", "TypeScript" etc. 
-2. Our company has Juniors, establish an interface to describe the Juniors with the attributes: "name", "age", "skills", "date_of_promotion", "domain"
-"domain" needs to be an enum type of values: "Web", "Connect", "Backend"
-3. Now establish an interface to describe our Company, which has attributes: "Interns", "Juniors", "Country" 
-4. Finally, export the interface for Company.
-
-Conclusion
-======
-
-After completing the tasks, make sure you have comitted all of your changes to your public github repository and email at gazmend@pabau.com for review. The title of your email must begin with "[Internship Task] Full name of Candidate". If the title is incorrect, it will not reach my inbox.
-
-Thank you for your interest in our internship programme, good luck to you!
+    TypeScript strictness is set to false, but if you complete tasks fully type safe you will get maximum points for task completion.
+       
