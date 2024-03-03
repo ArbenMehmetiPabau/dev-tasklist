@@ -47,4 +47,7 @@ Once you have confirmed your services are up and running, you can visit localhos
     If booking is not inserted due to errors, display all relevant errors in human readable format.
 
     TypeScript strictness is set to false, but if you complete tasks fully type safe you will get maximum points for task completion.
-       
+
+## Task completion
+
+Please make a seperate repo of your own with the completed task, deliver it as instructed by the recruiter.
